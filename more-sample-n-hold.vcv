@@ -1,0 +1,663 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Apple Inc.: MacBook Pro Speakers",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        108,
+        0
+      ]
+    },
+    {
+      "id": 155,
+      "plugin": "Geodesics",
+      "version": "1.2.0",
+      "model": "Branes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 171,
+      "rightModuleId": 170,
+      "data": {
+        "panelTheme": 1,
+        "vibrations0": 0,
+        "vibrations1": 0,
+        "noiseRange0": 0.0,
+        "noiseRange1": 0.0
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 159,
+      "plugin": "JW-Modules",
+      "version": "1.0.11",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 7.0
+        }
+      ],
+      "leftModuleId": 170,
+      "rightModuleId": 160,
+      "data": {},
+      "pos": [
+        32,
+        0
+      ]
+    },
+    {
+      "id": 160,
+      "plugin": "JW-Modules",
+      "version": "1.0.11",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 7.0
+        }
+      ],
+      "leftModuleId": 159,
+      "data": {},
+      "pos": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": 164,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.2",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.198000386
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 169,
+      "rightModuleId": 165,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 1
+      },
+      "pos": [
+        70,
+        0
+      ]
+    },
+    {
+      "id": 165,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.2",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.188099951
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 164,
+      "rightModuleId": 166,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 1
+      },
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 166,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.2",
+      "model": "BusDepot",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.221200064
+        },
+        {
+          "id": 3,
+          "value": 26.0
+        },
+        {
+          "id": 4,
+          "value": 26.0
+        }
+      ],
+      "leftModuleId": 165,
+      "rightModuleId": 167,
+      "data": {
+        "input_on": 0,
+        "level_cv_filter": 1,
+        "color_theme": 1,
+        "fade_cv_mode": 0,
+        "audition_depot": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "audition_mode": 0
+      },
+      "pos": [
+        76,
+        0
+      ]
+    },
+    {
+      "id": 167,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.2",
+      "model": "BusRoute",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 166,
+      "rightModuleId": 168,
+      "data": {
+        "onau_1": 1,
+        "onau_2": 1,
+        "onau_3": 1,
+        "auditioning": 0,
+        "bus_audition1": 0,
+        "bus_audition2": 0,
+        "bus_audition3": 0,
+        "temped1": 0,
+        "temped2": 0,
+        "temped3": 0,
+        "color_theme": 1
+      },
+      "pos": [
+        82,
+        0
+      ]
+    },
+    {
+      "id": 168,
+      "plugin": "Valley",
+      "version": "1.0.1",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.349999726
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.398766994
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 167,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        88,
+        0
+      ]
+    },
+    {
+      "id": 169,
+      "plugin": "GlueTheGiant",
+      "version": "1.1.2",
+      "model": "MiniBus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.198000386
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 164,
+      "data": {
+        "input_on": 1,
+        "post_fades": 0,
+        "gain": 1.0,
+        "fade_in": 26.0,
+        "fade_out": 26.0,
+        "audition_mixer": 0,
+        "auditioned": 0,
+        "temped": 0,
+        "color_theme": 1
+      },
+      "pos": [
+        67,
+        0
+      ]
+    },
+    {
+      "id": 170,
+      "plugin": "Befaco",
+      "version": "1.0.1",
+      "model": "DualAtenuverter",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 155,
+      "rightModuleId": 159,
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 171,
+      "plugin": "Valley",
+      "version": "1.0.1",
+      "model": "Topograph",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.405999988
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": 0.5
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 155,
+      "data": {
+        "sequencerMode": 0,
+        "triggerOutputMode": 0,
+        "accOutputMode": 0,
+        "extClockResolution": 2,
+        "chaosKnobMode": 0,
+        "runMode": 0,
+        "panelStyle": 0,
+        "running": 0
+      },
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 11,
+      "outputModuleId": 164,
+      "outputId": 0,
+      "inputModuleId": 165,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 165,
+      "outputId": 0,
+      "inputModuleId": 166,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 166,
+      "outputId": 2,
+      "inputModuleId": 167,
+      "inputId": 6,
+      "color": "#0986ad"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 167,
+      "outputId": 0,
+      "inputModuleId": 168,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 167,
+      "outputId": 1,
+      "inputModuleId": 168,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 168,
+      "outputId": 0,
+      "inputModuleId": 167,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 168,
+      "outputId": 1,
+      "inputModuleId": 167,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 9,
+      "outputModuleId": 167,
+      "outputId": 7,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 10,
+      "outputModuleId": 167,
+      "outputId": 8,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 20,
+      "outputModuleId": 169,
+      "outputId": 0,
+      "inputModuleId": 164,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 171,
+      "outputId": 0,
+      "inputModuleId": 155,
+      "inputId": 14,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 22,
+      "outputModuleId": 171,
+      "outputId": 1,
+      "inputModuleId": 155,
+      "inputId": 15,
+      "color": "#0c8e15"
+    }
+  ]
+}
